@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: script workflow (Lint, Security, Test, Env)
+name: script workflow (Lint, Security, Test, env)
 
 # Controls when the workflow will run
 on:
@@ -57,4 +57,3 @@ jobs:
 
       - name: Execute Test Script
         run: ./scripts/my-script.sh
-        
